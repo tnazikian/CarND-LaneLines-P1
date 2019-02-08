@@ -1,16 +1,10 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+* Reflect on my work in a written report
 
 
 [//]: # (Image References)
@@ -32,9 +26,8 @@ of interest to detect any lines in the image. These lines were then applied to a
 that separated lines for the left and right lanes, and averaged the respective slopes and intercepts of the each.
 These lines were then drawn on a blank frame as approximations of the positions of the left/right lanes. Finally,
 a weighted image containing these lines and the original image is composed.
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-![alt text][out]
+![alt text](out.png)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
